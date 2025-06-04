@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Moradores - Gestão Emergencial</title>
+  <link rel="stylesheet" href="../style/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Safe Location</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="moradores.html">Moradores</a>
+        <a href="alertas.html">Alertas & Refúgios</a>
+        <a href="membros.html">Membros</a>
+      </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Buscar Moradores</h2>
+      <div style="display:flex; align-items:center; justify-content:center; margin-bottom: 1rem;">
+        <input type="text" id="buscaInput" placeholder="Digite o nome..." />
+      </div>
+      <ul id="listaMoradores" class="list"></ul>
+    </section>
+
+    <script src="../js/moradores.js"></script>
+
+  </main>
